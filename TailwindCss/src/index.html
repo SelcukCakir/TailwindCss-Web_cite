@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/38b84dd3ec.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="absolute top-0 left-0 bg-[transparent] z-50 w-full">
+      <div class="container-fluid flex justify-center mx-4">
+        <div class="container text-left text-white border-b-[1px]">
+          <div class="my-4"><i class="fa-solid fa-location-dot mr-2"></i> 1985 Kerry Way, Whittier, CA, USA <i class="fa-solid fa-phone ml-5 mr-2"></i> +1 562-789-1935</div>
+        </div>
+      </div>
+      <div class="container-fluid flex justify-center">
+        <div class="container text-left">
+          <nav class="p-5 bg-transparent shadow md:flex md:items-center md:justify-between h-16">
+            <div class="flex justify-start items-center "><span class="text-2xl font-[Poppins] cursor-pointer hidden md:block"><img class="h-10 inline " src="https://tailwindcss.com/_next/static/media/social-square.b622e290e82093c36cca57092ffe494f.jpg"> tailwind </span><span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+              </span></div>
+            <ul class="md:flex md:items-center  md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 bg-[#FF0033]  md:bg-transparent text-white">
+              <li class="mx-4 my-6 md:my-0"><a href="#" class="text-md text-white font-bold hover:text-cyan-500 duration-500">HOME</a></li>
+              <li class="mx-4 my-6 md:my-0"><a href="#" class="text-md text-white font-bold hover:text-cyan-500 duration-500">SERVICE</a></li>
+              <li class="mx-4 my-6 md:my-0"><a href="#" class="text-md text-white font-bold hover:text-cyan-500 duration-500">ABOUT</a></li>
+              <li class="mx-4 my-6 md:my-0"><a href="#" class="text-md text-white font-bold hover:text-cyan-500 duration-500">CONTACT</a></li>
+              <li class="mx-4 my-6 md:my-0"><a href="#" class="text-md text-white font-bold hover:text-cyan-500 duration-500">BLOG'S</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class=" h-[85vh] relative bg-gradient-to-r from-[#3182CD] to-[#38B1AC] rounded-br-[20em]" id="sec1">
+      <div class="h-full absolute top-0 left-0 z-0"><img src="../src/img/left.jpeg" alt="" class="w-full h-full object-cover opacity-20 relative"></div>
+      <div class="container absolute top-[15em] md:left-[13em]  md:w-[75%] sm:w-full lg:w-1/2">
+        <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-loose">Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
+        <p class="text-white text-2xl my-9">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim saepe quam deserunt qui dolores, alias cupiditate temporibus soluta. Tempore, cum.</p><button class="px-6 py-3 bg-sky-300 hover:bg-sky-900 font-bold text-xl hover:text-white rounded-md shadow-xl hover:rounded-lg">Click Btn</button>
+      </div>
+    </section>
+    <section class="mt-5 mb-10 bg-gray-200 py-5" id="sec2">
+      <div class="container-fluid flex justify-center">
+        <div class=" container grid md:grid-cols-2 sm:grid-cols-1 gap-4">
+          <div class="p-4 rounded-lg bg-gradient-to-b from-gray-100 to-gray-200 shadow-lg">
+            <h6 class="mb-6 text-sm uppercase font-semibold tracking-widest">Lorem ipsum, dolor sit</h6>
+            <h2 class="mb-6 text-2xl font-bold">Amet consectetur adipisicing elit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet necessitatibus voluptate eum voluptas, perspiciatis iste illum exercitationem minima recusandae consequuntur ab eaque neque nesciunt qui quam eveniet, optio, veritatis adipisci quod molestiae ipsam fugit quos. Voluptas, tenetur fugit eaque! </p>
+          </div>
+          <div class="p-4 rounded-lg shadow-lg bg-gradient-to-b from-gray-100 to-gray-200">
+            <div class="grid grid-cols-12 gap-3">
+              <div class="col-span-2 flex items-center">
+                <div class="bg-blue-700  ml-5 lg:w-4/6 py-[25%] rounded-[100%]">&nbsp;</div>
+              </div>
+              <div class="bg-orange-200 col-span-10 bg-gradient-to-b from-gray-100 to-gray-200">
+                <h4 class="font-bold text-xl mb-7">Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam cupiditate, autem tenetur repellendus ipsa? Eum adipisci placeat nemo!</p>
+              </div>
+              <div class="col-span-2 flex items-center mt-5">
+                <div class="bg-blue-700  ml-5 lg:w-4/6 py-[25%] rounded-[100%]">&nbsp;</div>
+              </div>
+              <div class="bg-orange-200 col-span-10 bg-gradient-to-b from-gray-100 to-gray-200">
+                <h4 class="font-bold text-xl mb-7">Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam cupiditate, autem tenetur repellendus ipsa? Eum adipisci placeat nemo!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid flex justify-center mt-20">
+        <div class=" container grid md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-1 gap-4">
+          <div class="bg-white col-span-1 text-center border-2 border-slate-300 rounded-lg shadow-lg shadow-blue-500/40 p-5  hover:cursor-pointer hover:scale-125 hover:transition hover:ease-in-out hover:duration-300"><i class="fa-solid fa-bitcoin-sign fa-4x mb-3"></i>
+            <h2 class="mb-3 font-semibold text-xl italic">Lorem, ipsum dolor.</h2>
+            <p class="text-red-500 font-bold">Lorem ipsum dolor sit amet consectetur.</p><br><button class="px-4 py-2 font-semibold text-sm bg-yellow-500 text-white rounded-md shadow-sm hover:-translate-y-1 hover:scale-110 hover:bg-orange-500 ease-in-out delay-150 duration-300"> Save Changes </button>
+          </div>
+          <div class="bg-white col-span-1 text-center border-2 border-slate-300 rounded-lg shadow-lg shadow-blue-500/40 p-5  hover:cursor-pointer hover:scale-125 hover:transition hover:ease-in-out hover:duration-300"><i class="fa-brands fa-ethereum fa-4x mb-3"></i>
+            <h2 class="mb-3 font-semibold text-xl italic">Lorem, ipsum dolor.</h2>
+            <p class="text-red-500 font-bold">Lorem ipsum dolor sit amet consectetur.</p><br><button class="px-4 py-2 font-semibold text-sm bg-yellow-500 text-white rounded-md shadow-sm hover:-translate-y-1 hover:scale-110 hover:bg-orange-500 ease-in-out delay-150 duration-300"> Save Changes </button>
+          </div>
+          <div class="bg-white col-span-1 text-center border-2 border-slate-300 rounded-lg shadow-lg shadow-blue-500/40 p-5  hover:cursor-pointer hover:scale-125 hover:transition hover:ease-in-out hover:duration-300"><i class="fa-solid fa-turkish-lira-sign fa-4x mb-3"></i>
+            <h2 class="mb-3 font-semibold text-xl italic">Lorem, ipsum dolor.</h2>
+            <p class="text-red-500 font-bold">Lorem ipsum dolor sit amet consectetur.</p><br><button class="px-4 py-2 font-semibold text-sm bg-yellow-500 text-white rounded-md shadow-sm hover:-translate-y-1 hover:scale-110 hover:bg-orange-500 ease-in-out delay-150 duration-300"> Save Changes </button>
+          </div>
+          <div class="bg-white col-span-1 text-center border-2 border-slate-300 rounded-lg shadow-lg shadow-blue-500/40 p-5  hover:cursor-pointer hover:scale-125 hover:transition hover:ease-in-out hover:duration-300"><i class="fa-solid fa-euro-sign fa-4x mb-3"></i>
+            <h2 class="mb-3 font-semibold text-xl italic">Lorem, ipsum dolor.</h2>
+            <p class="text-red-500 font-bold">Lorem ipsum dolor sit amet consectetur.</p><br><button class="px-4 py-2 font-semibold text-sm bg-yellow-500 text-white rounded-md shadow-sm hover:-translate-y-1 hover:scale-110 hover:bg-orange-500 ease-in-out delay-150 duration-300"> Save Changes </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sec3" class="mt-8 mb-10">
+      <div class="container-fluid flex justify-center">
+        <div class=" container grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-4">
+          <div class="col-span-1 w-full  lg:px-3 text-justify p-5">
+            <h6 class="text-sm uppercase font-semibold tracking-widest">Lorem, ipsum dolor.</h6>
+            <h2 class="text-3xl leading-tight font-bold mt-4">Lorem ipsum dolor sit amet consectetur.</h2>
+            <p class="mt-2 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est minus veritatis nobis aliquam fugiat officiis vitae dicta sunt, dolores nisi possimus repellendus quo numquam, odio, ipsam labore voluptates mollitia animi. Quidem vel velit sunt nostrum, quae nemo accusamus numquam molestias autem maiores quia tempora illo delectus vero quis? Maiores incidunt iure accusantium explicabo. Officiis aut adipisci quas iste iure rem. Id dicta labore, ullam similique, dolorem adipisci, iure rerum quasi cumque laudantium ab! Aliquid rerum nostrum, debitis veritatis sapiente quos amet aliquam obcaecati quae dolore non adipisci consectetur aspernatur deserunt.</p>
+          </div>
+          <div class="col-span-2">
+            <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+              <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4"><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button></div>
+              <div class="carousel-inner relative w-full overflow-hidden">
+                <div class="carousel-item active relative float-left w-full"><img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="block w-full" alt="..." />
+                  <div class="carousel-caption hidden md:block absolute text-center">
+                    <h5 class="text-xl">First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item relative float-left w-full"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg" class="block w-full" alt="..." />
+                  <div class="carousel-caption hidden md:block absolute text-center">
+                    <h5 class="text-xl">Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item relative float-left w-full"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg" class="block w-full" alt="..." />
+                  <div class="carousel-caption hidden md:block absolute text-center">
+                    <h5 class="text-xl">Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div><button class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"><span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"><span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="mt-12 bg-black text-white py-5">
+      <div class="container-fluid flex justify-center">
+        <div class="container">
+          <div class="grid grid-cols-6 gap-5">
+            <div class="col-span-2 px-4">
+              <p class="font-semibold text-xl">TAILWIND CSS</p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sunt!</p><br>
+              <p>SUBSCRIBE FOR OUR NEWSLETTER</p>
+              <form>
+                <div class="relative"><input type="email" name="email" id="email" class="px-3 py-4 bg-white border shadow-sm border-slate-300 placeholder-slate-400 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1 invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500 disabled:shadow-none" placeholder="you@example.com">
+                  <div class="text-right absolute right-1 top-[.3rem]"><button class="bg-sky-500 hover:bg-sky-700 px-3 py-3 text-sm leading-5 rounded-md font-semibold text-white"> Save changes </button></div>
+                </div>
+              </form>
+            </div>
+            <div class="col-span-2 px-4">
+              <h3 class="font-semibold text-xl">CONTACT DETAILS</h3><br>
+              <p class="mb-3"><i class="fa-solid fa-location-dot pr-5"></i> Lorem ipsum dolor sit amet consectetur.</p>
+              <p class="mb-3"><i class="fa-solid fa-clock pr-5"></i> Mon - Fri: 9:00 - 19:00 Closed on Weekends</p>
+              <p class="mb-3"><i class="fa-solid fa-phone pr-5"></i><a href="tel:+902121111111">+90 212 111 11 11</a></p>
+              <p class="mb-3"><i class="fa-solid fa-envelope pr-5"></i><a href="mailto:test@test.com">test@test.com</a></p>
+            </div>
+            <div class="col-span-2 px-4">
+              <h3 class="font-semibold text-xl">WE'RE SOCIAL</h3><br>
+              <marquee behavior="" direction="" class="w-1/2">
+                <div><i class="fa-brands fa-facebook-square"></i><i class="fa-brands fa-twitter-square"></i><i class="fa-brands fa-instagram-square"></i><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-snapchat-square"></i><i class="fa-brands fa-google-plus-square"></i><i class="fa-brands fa-discord"></i><i class="fa-brands fa-whatsapp-square"></i><i class="fa-brands fa-tiktok"></i><i class="fa-brands fa-weixin"></i><i class="fa-brands fa-facebook-messenger"></i></div>
+              </marquee>
+              <p class="mt-12">&copy; 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src=" https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script>
+      function Menu(e) {
+        let list = document.querySelector('ul');
+        e.name === 'menu' ? (e.name = "close", list.classList.add('top-[110px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+      }
+    </script>
+  </body>
+</html>

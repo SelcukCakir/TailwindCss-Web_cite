@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner-images{
+    background-image: url('../src/img/header.jpg'); 
+    height: auto; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    background-size: cover;
+}
+.leading-loose{
+    line-height: 5rem!important;
+}
+.fa-bitcoin-sign, .fa-euro-sign, .fa-turkish-lira-sign, .fa-ethereum{
+    color: blue!important;
+}
+.fa-brands{
+    font-size: 30px;
+    margin-right: 10px;
+}
